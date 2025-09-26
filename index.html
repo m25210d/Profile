@@ -3,135 +3,225 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>موقعي الشخصي</title>
-  
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <title>مهند محمد | مطور تطبيقات ويب</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f9fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(120deg, #0077ff, #00c6ff);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .section {
+      margin-bottom: 60px;
+    }
+
+    .section h2, .section h3 {
+      color: #0077ff;
+      margin-bottom: 20px;
+    }
+
+    ul, ol {
+      padding-right: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    li i {
+      color: #0077ff;
+      margin-left: 8px;
+    }
+
+    form {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+
+    form button {
+      background-color: #0077ff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    form button:hover {
+      background-color: #005bb5;
+    }
+
+    .success-message {
+      display: none;
+      background-color: #d4edda;
+      color: #155724;
+      padding: 10px 15px;
+      border: 1px solid #c3e6cb;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0077ff;
+      color: white;
+    }
+
+    a {
+      text-decoration: none;
+      color: #0077ff;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+    .cta-button {
+  display: inline-block;
+  background-color: #00b894;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #009e7f;
+}
+
+    @media (max-width: 600px) {
+      header, .container {
+        padding: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-  <header class="hero">
-    <div class="container">
-      <h1>مهند محمد قاسم امين</h1>
-      <p>
-      مطور تطبيقات ويب
-      </p>
-      <div class="social-icons">
-        <!--<a href=""><i class="fab fa-linkedin"></i></a>-->
-        <a href="https://github.com/m25210d">
-        <i class="fab fa-github">
-        </i></a>
-        <!--<a href="">
-        <i class="fab fa-whatsapp">
-        </i></a>-->
-        <a href="mailto:m25210d@gmail.com">
-        <i class="fas fa-envelope">
-        </i></a>
-      </div>
-    </div>
+  <header>
+    <h1>مهند محمد</h1>
+    <p><i class="fa-solid fa-code"></i> مطور تطبيقات ويب | تطوير مشاريع مخصصة</p>
+    <a href="tel:+967711682613" class="cta-button">
+      <i class="fa-solid fa-briefcase"></i> متاح للتعاقد مع شركة
+    </a>
   </header>
 
-  <section class="about container">
-    <h2>من أنا؟</h2>
-    <p>
-      مطور تطبيقات ويب حاصل على درجة البكالوريوس في تقنية المعلومات، لدي شغف كبير بالتكنولوجيا ورغبة عميقة في تعلم أحدث الحلول والتقنيات، أنجزت عدة مشاريع وشاركت في أخرى، حيث طبقت المفاهيم والممارسات الاكاديمية بشكل عملي، أسعى دائماً لتوسيع مهاراتي ومعرفتي في مجال تقنية المعلومات.
+  <div class="container">
 
-    </p>
-  </section>
-  
-  
-  <section class="skills container">
-    <h2>المهارات</h2>
-    <ul>
-      <li>تطوير تطبيقات الويب</li>
-      <li>تصميم قواعد البيانات</li>
-      <li>مهارة في استخدام الحاسوب</li>
-      <li>القدرة على استخدام برامج الحاسوب</li>
-      <li>قدرة عالية على التعلم واكتساب المهارات</li>
-      <li>القدرة على العمل ضمن الفريق الواحد</li>
-      <li>حل المشكلات</li>
-    </ul>
-  </section>
+    <section class="section">
+      <h2><i class="fa-solid fa-gift"></i> تقييم مجاني لمشروعك</h2>
+      <p>هل لديك فكرة وتريد تقييم أولي؟ سأقيمها مجاناً خلال 24
+       ساعة.
+       </p>
+    </section>
 
-  <section class="skills container">
-    <h2>لغات البرمجة</h2>
-    <ul>
-      <li>HTML / CSS</li>
-      <li>JavaScript</li>
-      <li>Node js</li>
-      <li>Python</li>
-      <li>PHP</li>
-      <li>SQL</li>
-    </ul>
-  </section>
-  
-  
-  <section class="education container">
-  <h2>التعليم</h2>
-
-  <div class="edu-item">
-    <h3>بكالوريوس تقنية معلومات</h3>
-    <p>جامعة العلوم والتكنولوجيا - 2025</p>
-    <p>تعلمت أساسيات تطوير البرمجيات، تحليل الأنظمة، وهندسة قواعد البيانات</p>
-  </div>
-  
-  <div class="edu-item">
-    <h3>اللغة الانجليزية</h3>
-    <p>معهد العلوم والتكنولوجيا - 2022</p>
-  </div>
-  
-  <div class="edu-item">
-    <h3>سيسكو CCNA</h3>
-    <p>المعهد العام للاتصالات - 2025</p>
-  </div>
-  
-  <div class="edu-item">
-    <h3>الرخصة الدولية لقيادة الحاسوب - ICDL</h3>
-    <p>معهد العلوم والتكنولوجيا - 2022</p>
-  </div>
-  
-</section>
-
-
-  <section class="projects container">
-    <h2>المشاريع</h2>
-    
-    <div class="project">
-      <h3>
-         تشخيص ذكي لالتهاب مفاصل الركبة باستخدام صورة اشعة إكس راي - Python
-      </h3>
-      <p>ضمن فريق - مشروع تخرج</p>
-      <!--<a href="#" class="btn">عرض المشروع</a>-->
-    </div>
-    
-    <div class="project">
-      <h3>إدارة الأجهزة الالكترونية للشركات - PHP </h3>
-      <p>ضمن فريق</p>
-      <!--<a href="#" class="btn">عرض المشروع</a>-->
-    </div>
-    
-    <div class="project">
-      <h3>دردشة فورية - اونلاين</h3>
-      <p>فردي</p>
-      <p>Node.js & Socket.io</p>
-      <!--<a href="#" class="btn">عرض المشروع</a>-->
-    </div>
-  </section>
-  
-  
-  <section class="skills container">
-      <h2>اللغات</h2>
+    <section class="section">
+      <h2><i class="fa-solid fa-triangle-exclamation"></i> هل تواجه هذه التحديات؟</h2>
       <ul>
-          <li>الانجليزية: متوسطة - ممتازة في نطاق العمل</li>
+        <li><i class="fa-solid fa-circle-question"></i> لا تعرف كيف تبدأ مشروعك؟</li>
+        <li><i class="fa-solid fa-code-branch"></i> المشروع يعاني من بطء أو مشاكل؟</li>
+        <li><i class="fa-solid fa-users"></i> تحتاج نظام داخلي لشركتك؟</li>
+        <li><i class="fa-solid fa-handshake"></i> لم تجد مطوراً يفهم متطلباتك؟</li>
       </ul>
-  </section>
-  
-  
-  <footer>
-    <p>© 2025 - جميع الحقوق محفوظة</p>
-  </footer>
+    </section>
 
-</body>
-</html>
+    <section class="section">
+      <h2><i class="fa-solid fa-cogs"></i> الخدمات التي أقدمها</h2>
+      <ul>
+        <li><i class="fa-solid fa-laptop-code"></i> تطوير تطبيقات ويب مخصصة</li>
+        <li><i class="fa-solid fa-database"></i> تصميم وإدارة قواعد البيانات</li>
+        <li><i class="fa-solid fa-screwdriver-wrench"></i> تحليل نظم واحتياجات المشاريع</li>
+        <li><i class="fa-solid fa-headset"></i> استشارات تقنية ودعم فني</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2><i class="fa-solid fa-star"></i> لماذا تختارني؟</h2>
+      <ul>
+        <li><i class="fa-solid fa-thumbs-up"></i> خبرة عملية حقيقية</li>
+        <li><i class="fa-solid fa-comments"></i> تواصل مرن وسريع</li>
+        <li><i class="fa-solid fa-money-bill-wave"></i> أسعار معقولة وجودة عالية</li>
+        <li><i class="fa-solid fa-clock"></i> التزام بالمواعيد</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2><i class="fa-solid fa-road"></i> خطوات العمل</h2>
+      <ol>
+        <li><i class="fa-solid fa-comment-dots"></i> استشارة مجانية</li>
+        <li><i class="fa-solid fa-diagram-project"></i> خطة تنفيذ واضحة</li>
+        <li><i class="fa-solid fa-code"></i> بدء التطوير</li>
+        <li><i class="fa-solid fa-rocket"></i> تسليم ودعم</li>
+      </ol>
+    </section>
+
+    <section class="section">
+      <h2><i class="fa-solid fa-briefcase"></i> المجالات التي عملت بها</h2>
+      <ul>
+        <li><i class="fa-solid fa-stethoscope"></i> تطبيقات طبية</li>
+        <li><i class="fa-solid fa-chalkboard-teacher"></i> منصات تعليمية</li>
+        <li><i class="fa-solid fa-lightbulb"></i> مشاريع ناشئة</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2><i class="fa-solid fa-envelope"></i> تواصل معي</h2>
+      
+      <div class="section">
+        <ul style="list-style: none; padding: 0;">
+          <li><i class="fa-brands fa-whatsapp" style="color: #25D366;"></i>
+            <a href="https://wa.me/967711682613" target="_blank">تواصل عبر واتساب</a>
+          </li>
+          <li><i class="fa-solid fa-phone" style="color: #0077ff;"></i>
+            <a href="tel:+967711682613">+967 711 682 613</a>
+          </li>
+          <li><i class="fa-solid fa-envelope" style="color: #0077ff;"></i>
+            <a href="mailto:m25210d@gmail.com">m25210d@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 مهند محمد - جميع الحقوق محفوظة.
